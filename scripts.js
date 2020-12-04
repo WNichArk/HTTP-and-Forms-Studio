@@ -11,7 +11,7 @@ window.addEventListener("load", function(){
         "Google": "http://www.google.com/search",
         "DuckDuckGo": "https://www.duckduckgo.com/",
         "Bing": "https://www.bing.com/",
-        "Lycos?": "./dontuselycos.html"
+        "Lycos": "./dontuselycos.html"
     }
     const searchForm = document.getElementById("searchForm");
     searchForm.setAttribute("action", actions[engine.value]);
